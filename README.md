@@ -9,6 +9,6 @@ Related resources:
 • Pretrained BERT implementations for Turkish -> https://github.com/stefan-it/turkish-bert  
 • Pretrained BERT implementat&ons for Turkish -> https://sbert.net/docs/sentence_transformer/pretrained_models.html#multilingual-models 
  
-(2) For each question, vectorize student answer and compare it with alternative answers in each set, choose the one with highest similarity (use cosine similarity) and assign the regarding score.  
+2- For each question, vectorize student answer and compare it with alternative answers in each set, choose the one with highest similarity (use cosine similarity) and assign the regarding score.  
  
 The output of the system will be the output.xlsx file that includes StudentID, Student Total Score and question predicted score, matching answer and cosine similarity value for each question.
